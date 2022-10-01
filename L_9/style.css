@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box:
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: yellowgreen;
+    background-image: url(https://s1.1zoom.ru/big3/612/386230-alexfas01.jpg);
+    background-size: 50px;
+    background-repeat: repeat; 
+
+
+    /* border: 3px solid #ff0000;
+    border: 3px groove #ff0000;
+    border-top: 5px solid magenta;
+    border-left, border-rigth, border-bottom: 
+    для гарниц свои теги solid и тд. */
+
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: #ff0000; как вариант для случаев с постоянными изменениями*/
+}
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: lime;
+}
