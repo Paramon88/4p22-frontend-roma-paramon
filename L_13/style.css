@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    height: 100vh;
+}
+.contener {
+    font-size: 20px;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.box-percentage {
+    width: 50%;
+    height: 50%;
+    background-color: lime;
+}
+.box2 {
+    width: 3em;
+    height: 3em;
+    background-color: red;
+}

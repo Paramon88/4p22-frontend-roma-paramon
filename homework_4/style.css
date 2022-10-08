@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-image: url('images/222612.jpg');
+}
+header {
+    margin: 0;
+    width: 100%;
+    height: 120px;
+    background: linear-gradient(270deg,white 8%,grey 22%,black);
+    font-size: x-large;
+    color: black;
+    border-bottom: solid;
+    border-color: black;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-conteiner {
+    float: left;
+    width: 120px;
+    height: 120px;
+}
+.conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 20px;
+    column-gap: 100px;
+    padding: 20px 40px 20px 40px;
+}
+.box {
+    width: 500px;
+    height: 350px;
+    background-image: url('images/91584846.jpg');
+    border: 2px solid black;
+    border-radius: 20px;
+    border: solid;
+    border-color: black;
+    opacity: 0.9;
+    /*Как сделать фон прозрачным, оставив картинку не прозрачной.
+     Скорее всего непрозрачность будет влиять на все слои*/
+}
+.image1 {
+    width: 494px;
+    height: 180px;
+    border-radius: 20px 20px 0 0;
+    border-bottom: 1px solid black;
+    opacity: 1.0;
+}
+.name {
+    font-size: large;
+    font-weight: 600;
+    text-indent: 30px;
+}
+.art {
+    font-size: large;
+    font-weight: 400;
+    text-indent: 30px;
+}
+.price {
+    display: inline-block;
+    font-size: x-large;
+    font-weight: 600;
+    color: red;
+    text-indent: 30px;
+}
+.buy {
+    display: inline-block;
+}
+.sell {
+    width: 200px;
+    height: 40px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    color: black;
+    font-size: large;
+    font-weight: 600;
+    border-radius: 15px;
+    background-color: red;
+    border-color: none;
+}
+footer {
+    padding-bottom: 0;
+    width: 100%;
+    height: 120px;
+    background: linear-gradient(70deg,white 8%,grey 22%,black);
+    border-top: solid;
+    border-color: black;
+}
+.image-conteiner2 {
+    padding-bottom: 3px;
+    float: right;
+    width: 120px;
+    height: 120px;
+}
