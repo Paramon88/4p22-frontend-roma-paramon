@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <title>Form_HW7</title>
+</head>
+<body>
+  <main class="main__box">
+    <form class="main-box__form">
+      <div class="main-box-form__content">
+        <div class="main-box-form-content__conteiner main-box-form-content__conteiner_heading">
+          <label class="main-box-form-content__line main-box-form-content__line_heading">Вход</label>
+        </div>
+
+        <div class="main-box-form-content__conteiner main-box-form-content__conteiner_label">
+          <label class="main-box-form-content__line main-box-form-content__line_label" for="email">E-mail</label>
+        </div>
+        
+        <div class="main-box-form-content__conteiner main-box-form-content__conteiner_input">
+          <input class="main-box-form-content__line main-box-form-content__line_input" name="email" type="email" placeholder="Введите E-mail">    
+        </div>
+        <!-- Добавлен пароль (в макете не было для 1440) -->
+        <div class="main-box-form-content__conteiner main-box-form-content__conteiner_label">
+          <label class="main-box-form-content__line main-box-form-content__line_label" for="password">Пароль</label>
+        </div>
+
+        <div class="main-box-form-content__conteiner main-box-form-content__conteiner_input">
+          <input class="main-box-form-content__line main-box-form-content__line_input" name="password" type="password" placeholder="Введите пароль">
+        </div>
+          
+        <div class="main-box-form-content__conteiner-checkbox">
+          <input name="checkbox" type="checkbox">
+          <label class="main-box-form-content__line main-box-form-content__line_checkbox" for="checkbox">я согласен получать обновления на почту</label>
+        </div>
+
+        <div class="main-box-form-content__conteiner main-box-form-content__conteiner_buttton">
+           <button class="main-box-form-content__conteiner_button main-box-form-content__line main-box-form-content__line_button" type="submit">Войти</button>
+        </div>
+      </div>  
+    </form>
+  </main>
+</body>
+</html>
